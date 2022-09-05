@@ -1,0 +1,23 @@
+[Tue Aug 09 13:38:46.362521 2022] [mpm_winnt:notice] [pid 16608:tid 668] AH00455: Apache/2.4.46 (Win32) PHP/7.4.12 configured -- resuming normal operations
+[Tue Aug 09 13:38:46.362521 2022] [mpm_winnt:notice] [pid 16608:tid 668] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 10:45:47
+[Tue Aug 09 13:38:46.362521 2022] [core:notice] [pid 16608:tid 668] AH00094: Command line: 'mapache.exe -d E:/Projects/OVERWAVE/WIKI/server'
+[Tue Aug 09 13:38:46.364614 2022] [mpm_winnt:notice] [pid 16608:tid 668] AH00418: Parent: Created child process 28480
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 28480:tid 684] AH00354: Child: Starting 24 worker threads.
+[Tue Aug 09 13:38:47.492962 2022] [authz_core:error] [pid 28480:tid 900] [client ::1:62232] AH01630: client denied by server configuration: E:/Projects/OVERWAVE/WIKI/dokuwiki/data/dont-panic-if-you-see-this-in-your-logs-it-means-your-directory-permissions-are-correct.png, referer: http://localhost:8800/install.php
+[Tue Aug 09 13:42:01.125944 2022] [authz_core:error] [pid 28480:tid 900] [client ::1:62262] AH01630: client denied by server configuration: E:/Projects/OVERWAVE/WIKI/dokuwiki/data/dont-panic-if-you-see-this-in-your-logs-it-means-your-directory-permissions-are-correct.png, referer: http://localhost:8800/install.php
+[Tue Aug 09 14:00:35.463996 2022] [authz_core:error] [pid 28480:tid 928] [client ::1:62502] AH01630: client denied by server configuration: E:/Projects/OVERWAVE/WIKI/dokuwiki/data/dont-panic-if-you-see-this-in-your-logs-it-means-your-directory-permissions-are-correct.png, referer: http://localhost:8800/doku.php?id=wiki:welcome&do=admin
+[Tue Aug 09 15:10:30.767083 2022] [mpm_winnt:notice] [pid 16608:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 09 15:10:37.159104 2022] [mpm_winnt:notice] [pid 28480:tid 684] AH00364: Child: All worker threads have exited.
+[Tue Aug 09 15:10:38.823580 2022] [core:warn] [pid 39188:tid 536] AH00098: pid file E:/Projects/OVERWAVE/WIKI/server/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Aug 09 15:10:39.053396 2022] [mpm_winnt:notice] [pid 39188:tid 536] AH00455: Apache/2.4.46 (Win32) PHP/7.4.12 configured -- resuming normal operations
+[Tue Aug 09 15:10:39.053396 2022] [mpm_winnt:notice] [pid 39188:tid 536] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 10:45:47
+[Tue Aug 09 15:10:39.054394 2022] [core:notice] [pid 39188:tid 536] AH00094: Command line: 'mapache.exe -d E:/Projects/OVERWAVE/WIKI/server'
+[Tue Aug 09 15:10:39.057359 2022] [mpm_winnt:notice] [pid 39188:tid 536] AH00418: Parent: Created child process 33256
+[Tue Aug 09 15:10:39.450307 2022] [mpm_winnt:notice] [pid 33256:tid 684] AH00354: Child: Starting 24 worker threads.
+[Sun Sep 04 21:54:40.772618 2022] [core:warn] [pid 11956:tid 648] AH00098: pid file E:/Projects/OVERWAVE/WIKI/server/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Sep 04 21:54:41.060892 2022] [mpm_winnt:notice] [pid 11956:tid 648] AH00455: Apache/2.4.46 (Win32) PHP/7.4.12 configured -- resuming normal operations
+[Sun Sep 04 21:54:41.061889 2022] [mpm_winnt:notice] [pid 11956:tid 648] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 10:45:47
+[Sun Sep 04 21:54:41.061889 2022] [core:notice] [pid 11956:tid 648] AH00094: Command line: 'mapache.exe -d E:/Projects/OVERWAVE/WIKI/server'
+[Sun Sep 04 21:54:41.072458 2022] [mpm_winnt:notice] [pid 11956:tid 648] AH00418: Parent: Created child process 20196
+[Sun Sep 04 21:54:41.458204 2022] [mpm_winnt:notice] [pid 20196:tid 684] AH00354: Child: Starting 24 worker threads.
